@@ -1,5 +1,5 @@
-#ifndef CRYPTO_H__
-#define CRYPTO_H__
+#ifndef CRYPTO_H
+#define CRYPTO_H
 
 #include "../base58.h"
 
