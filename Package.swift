@@ -7,10 +7,10 @@ let package = Package(
     products: [
         .library(name: "Steem", targets: ["Steem"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/Zakimiii/AnyCodable.git",  .branch("master")),
-        .package(url: "https://github.com/jnordberg/OrderedDictionary.git", .branch("swiftpm")),
-    ],
+//    dependencies: [
+//        .package(url: "https://github.com/Zakimiii/AnyCodable.git",  .branch("master")),
+//        .package(url: "https://github.com/jnordberg/OrderedDictionary.git", .branch("swiftpm")),
+//    ],
     targets: [
         .target(
             name: "Crypto",
@@ -22,7 +22,7 @@ let package = Package(
         ),
         .target(
             name: "Steem",
-            dependencies: ["Crypto", "AnyCodable", "OrderedDictionary", "secp256k1"]
+            dependencies: ["Crypto", "secp256k1"] // "AnyCodable", "OrderedDictionary",
         ),
         .testTarget(
             name: "SteemTests",

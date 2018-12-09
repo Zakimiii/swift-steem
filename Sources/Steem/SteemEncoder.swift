@@ -2,7 +2,6 @@
 /// - Author: Johan Nordberg <johan@steemit.com>
 
 import Foundation
-import OrderedDictionary
 
 /// A type that can be encoded into Steem binary wire format.
 public protocol SteemEncodable: Encodable {
