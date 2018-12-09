@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Steem::Steem"
-               BuildableName = "Steem.framework"
-               BlueprintName = "Steem"
+               BlueprintIdentifier = "Steem::Crypto"
+               BuildableName = "Crypto.framework"
+               BlueprintName = "Crypto"
                ReferencedContainer = "container:Steem.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Steem::Crypto"
-               BuildableName = "Crypto.framework"
-               BlueprintName = "Crypto"
+               BlueprintIdentifier = "Steem::Steem"
+               BuildableName = "Steem.framework"
+               BlueprintName = "Steem"
                ReferencedContainer = "container:Steem.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -93,9 +93,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Steem::Steem"
-            BuildableName = "Steem.framework"
-            BlueprintName = "Steem"
+            BlueprintIdentifier = "Steem::Crypto"
+            BuildableName = "Crypto.framework"
+            BlueprintName = "Crypto"
             ReferencedContainer = "container:Steem.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
