@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "Steem", targets: ["Steem"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Flight-School/AnyCodable.git", .revision("396ccc3dba5bdee04c1e742e7fab40582861401e")),
+        .package(url: "https://github.com/Zakimiii/AnyCodable.git",  .branch("master")),
         .package(url: "https://github.com/jnordberg/OrderedDictionary.git", .branch("swiftpm")),
     ],
     targets: [
