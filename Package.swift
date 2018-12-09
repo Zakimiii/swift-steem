@@ -12,17 +12,17 @@ let package = Package(
 //        .package(url: "https://github.com/jnordberg/OrderedDictionary.git", .branch("swiftpm")),
 //    ],
     targets: [
-        .target(
-            name: "Crypto",
-            dependencies: []
-        ),
+//        .target(
+//            name: "Crypto",
+//            dependencies: []
+//        ),
         .target(
             name: "secp256k1",
             dependencies: []
         ),
         .target(
             name: "Steem",
-            dependencies: ["Crypto", "secp256k1"] // "AnyCodable", "OrderedDictionary",
+            dependencies: ["secp256k1"] //"Crypto", "AnyCodable", "OrderedDictionary",
         ),
         .testTarget(
             name: "SteemTests",

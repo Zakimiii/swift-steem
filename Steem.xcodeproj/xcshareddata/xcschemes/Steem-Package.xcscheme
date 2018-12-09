@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Steem::Crypto"
-               BuildableName = "Crypto.framework"
-               BlueprintName = "Crypto"
-               ReferencedContainer = "container:Steem.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "Steem::secp256k1"
                BuildableName = "secp256k1.framework"
                BlueprintName = "secp256k1"
@@ -60,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Steem::SteemTests"
-               BuildableName = "SteemTests.xctest"
-               BlueprintName = "SteemTests"
+               BlueprintIdentifier = "Steem::SteemIntegrationTests"
+               BuildableName = "SteemIntegrationTests.xctest"
+               BlueprintName = "SteemIntegrationTests"
                ReferencedContainer = "container:Steem.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -70,9 +56,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Steem::SteemIntegrationTests"
-               BuildableName = "SteemIntegrationTests.xctest"
-               BlueprintName = "SteemIntegrationTests"
+               BlueprintIdentifier = "Steem::SteemTests"
+               BuildableName = "SteemTests.xctest"
+               BlueprintName = "SteemTests"
                ReferencedContainer = "container:Steem.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -93,9 +79,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Steem::Crypto"
-            BuildableName = "Crypto.framework"
-            BlueprintName = "Crypto"
+            BlueprintIdentifier = "Steem::secp256k1"
+            BuildableName = "secp256k1.framework"
+            BlueprintName = "secp256k1"
             ReferencedContainer = "container:Steem.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

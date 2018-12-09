@@ -9,12 +9,12 @@
 /* Begin PBXAggregateTarget section */
 		"Steem::SteemPackageTests::ProductTarget" /* SteemPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_144 /* Build configuration list for PBXAggregateTarget "SteemPackageTests" */;
+			buildConfigurationList = OBJ_125 /* Build configuration list for PBXAggregateTarget "SteemPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_147 /* PBXTargetDependency */,
-				OBJ_149 /* PBXTargetDependency */,
+				OBJ_128 /* PBXTargetDependency */,
+				OBJ_129 /* PBXTargetDependency */,
 			);
 			name = SteemPackageTests;
 			productName = SteemPackageTests;
@@ -22,195 +22,183 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_100 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Client.swift */; };
-		OBJ_101 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Hex.swift */; };
-		OBJ_102 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Misc.swift */; };
-		OBJ_103 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Operation.swift */; };
-		OBJ_104 /* OrderedDictionary+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* OrderedDictionary+Codable.swift */; };
-		OBJ_105 /* OrderedDictionary+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* OrderedDictionary+Description.swift */; };
-		OBJ_106 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* OrderedDictionary.swift */; };
-		OBJ_107 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* PrivateKey.swift */; };
-		OBJ_108 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* PublicKey.swift */; };
-		OBJ_109 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Random.swift */; };
-		OBJ_110 /* Secp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Secp256k1.swift */; };
-		OBJ_111 /* Sha2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Sha2.swift */; };
-		OBJ_112 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Signature.swift */; };
-		OBJ_113 /* SteemEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* SteemEncoder.swift */; };
-		OBJ_114 /* SteemURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* SteemURL.swift */; };
-		OBJ_115 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Transaction.swift */; };
-		OBJ_117 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::secp256k1::Product" /* secp256k1.framework */; };
-		OBJ_118 /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::Crypto::Product" /* Crypto.framework */; };
-		OBJ_127 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* API.swift */; };
-		OBJ_128 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Performance.swift */; };
-		OBJ_129 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* XCTestManifests.swift */; };
-		OBJ_131 /* Steem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::Steem::Product" /* Steem.framework */; };
-		OBJ_132 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::secp256k1::Product" /* secp256k1.framework */; };
-		OBJ_133 /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::Crypto::Product" /* Crypto.framework */; };
-		OBJ_142 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_154 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Asset.swift */; };
-		OBJ_155 /* Base58.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Base58.swift */; };
-		OBJ_156 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Block.swift */; };
-		OBJ_157 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Client.swift */; };
-		OBJ_158 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* Common.swift */; };
-		OBJ_159 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Operation.swift */; };
-		OBJ_160 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* PrivateKey.swift */; };
-		OBJ_161 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* PublicKey.swift */; };
-		OBJ_162 /* Secp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Secp256k1.swift */; };
-		OBJ_163 /* Sha2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Sha2.swift */; };
-		OBJ_164 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Signature.swift */; };
-		OBJ_165 /* SteemEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* SteemEncoder.swift */; };
-		OBJ_166 /* SteemURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* SteemURL.swift */; };
-		OBJ_167 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Transaction.swift */; };
-		OBJ_168 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* XCTestManifests.swift */; };
-		OBJ_170 /* Steem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::Steem::Product" /* Steem.framework */; };
-		OBJ_171 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::secp256k1::Product" /* secp256k1.framework */; };
-		OBJ_172 /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::Crypto::Product" /* Crypto.framework */; };
-		OBJ_180 /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* secp256k1.c */; };
-		OBJ_182 /* secp256k1.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* secp256k1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		OBJ_80 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* base58.c */; };
-		OBJ_81 /* hasher.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* hasher.c */; };
-		OBJ_82 /* memzero.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* memzero.c */; };
-		OBJ_83 /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* ripemd160.c */; };
-		OBJ_84 /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* sha2.c */; };
-		OBJ_91 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* API.swift */; };
-		OBJ_92 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* AnyCodable.swift */; };
-		OBJ_93 /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* AnyDecodable.swift */; };
-		OBJ_94 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* AnyEncodable.swift */; };
-		OBJ_95 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Asset.swift */; };
-		OBJ_96 /* Authority.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Authority.swift */; };
-		OBJ_97 /* Base58.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Base58.swift */; };
-		OBJ_98 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Block.swift */; };
-		OBJ_99 /* ChainId.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ChainId.swift */; };
+		18D9D08121BD42C40068B3B2 /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D9D08021BD42C40068B3B2 /* crypto.h */; };
+		18D9D08821BD42D50068B3B2 /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D9D08221BD42D40068B3B2 /* options.h */; };
+		18D9D08921BD42D50068B3B2 /* ripemd160.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D9D08321BD42D40068B3B2 /* ripemd160.h */; };
+		18D9D08A21BD42D50068B3B2 /* sha2.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D9D08421BD42D50068B3B2 /* sha2.h */; };
+		18D9D08B21BD42D50068B3B2 /* memzero.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D9D08521BD42D50068B3B2 /* memzero.h */; };
+		18D9D08C21BD42D50068B3B2 /* base58.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D9D08621BD42D50068B3B2 /* base58.h */; };
+		18D9D08D21BD42D50068B3B2 /* hasher.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D9D08721BD42D50068B3B2 /* hasher.h */; };
+		OBJ_100 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Transaction.swift */; };
+		OBJ_102 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::secp256k1::Product" /* secp256k1.framework */; };
+		OBJ_110 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* API.swift */; };
+		OBJ_111 /* Performance.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Performance.swift */; };
+		OBJ_112 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* XCTestManifests.swift */; };
+		OBJ_114 /* Steem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::Steem::Product" /* Steem.framework */; };
+		OBJ_115 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::secp256k1::Product" /* secp256k1.framework */; };
+		OBJ_123 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_135 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Asset.swift */; };
+		OBJ_136 /* Base58.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Base58.swift */; };
+		OBJ_137 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Block.swift */; };
+		OBJ_138 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Client.swift */; };
+		OBJ_139 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Common.swift */; };
+		OBJ_140 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Operation.swift */; };
+		OBJ_141 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* PrivateKey.swift */; };
+		OBJ_142 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* PublicKey.swift */; };
+		OBJ_143 /* Secp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Secp256k1.swift */; };
+		OBJ_144 /* Sha2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Sha2.swift */; };
+		OBJ_145 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Signature.swift */; };
+		OBJ_146 /* SteemEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* SteemEncoder.swift */; };
+		OBJ_147 /* SteemURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* SteemURL.swift */; };
+		OBJ_148 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Transaction.swift */; };
+		OBJ_149 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* XCTestManifests.swift */; };
+		OBJ_151 /* Steem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::Steem::Product" /* Steem.framework */; };
+		OBJ_152 /* secp256k1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Steem::secp256k1::Product" /* secp256k1.framework */; };
+		OBJ_159 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* base58.c */; };
+		OBJ_160 /* hasher.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* hasher.c */; };
+		OBJ_161 /* memzero.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* memzero.c */; };
+		OBJ_162 /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ripemd160.c */; };
+		OBJ_163 /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* sha2.c */; };
+		OBJ_164 /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* secp256k1.c */; };
+		OBJ_166 /* secp256k1.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* secp256k1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		OBJ_76 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* API.swift */; };
+		OBJ_77 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* AnyCodable.swift */; };
+		OBJ_78 /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* AnyDecodable.swift */; };
+		OBJ_79 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* AnyEncodable.swift */; };
+		OBJ_80 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Asset.swift */; };
+		OBJ_81 /* Authority.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Authority.swift */; };
+		OBJ_82 /* Base58.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Base58.swift */; };
+		OBJ_83 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Block.swift */; };
+		OBJ_84 /* ChainId.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ChainId.swift */; };
+		OBJ_85 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Client.swift */; };
+		OBJ_86 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Hex.swift */; };
+		OBJ_87 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Misc.swift */; };
+		OBJ_88 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Operation.swift */; };
+		OBJ_89 /* OrderedDictionary+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* OrderedDictionary+Codable.swift */; };
+		OBJ_90 /* OrderedDictionary+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* OrderedDictionary+Description.swift */; };
+		OBJ_91 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* OrderedDictionary.swift */; };
+		OBJ_92 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* PrivateKey.swift */; };
+		OBJ_93 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* PublicKey.swift */; };
+		OBJ_94 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Random.swift */; };
+		OBJ_95 /* Secp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Secp256k1.swift */; };
+		OBJ_96 /* Sha2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Sha2.swift */; };
+		OBJ_97 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Signature.swift */; };
+		OBJ_98 /* SteemEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* SteemEncoder.swift */; };
+		OBJ_99 /* SteemURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* SteemURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18D9CFE821BD181D0068B3B2 /* PBXContainerItemProxy */ = {
+		18D9D07421BD41A70068B3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Steem::secp256k1";
 			remoteInfo = secp256k1;
 		};
-		18D9CFE921BD181D0068B3B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Steem::Crypto";
-			remoteInfo = Crypto;
-		};
-		18D9CFEA21BD181D0068B3B2 /* PBXContainerItemProxy */ = {
+		18D9D07521BD41A70068B3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Steem::Steem";
 			remoteInfo = Steem;
 		};
-		18D9CFEB21BD181D0068B3B2 /* PBXContainerItemProxy */ = {
+		18D9D07621BD41A70068B3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Steem::secp256k1";
 			remoteInfo = secp256k1;
 		};
-		18D9CFEC21BD181D0068B3B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Steem::Crypto";
-			remoteInfo = Crypto;
-		};
-		18D9CFED21BD181D0068B3B2 /* PBXContainerItemProxy */ = {
+		18D9D07721BD41A70068B3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Steem::Steem";
 			remoteInfo = Steem;
 		};
-		18D9CFEE21BD181D0068B3B2 /* PBXContainerItemProxy */ = {
+		18D9D07821BD41A70068B3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Steem::secp256k1";
 			remoteInfo = secp256k1;
 		};
-		18D9CFEF21BD181D0068B3B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Steem::Crypto";
-			remoteInfo = Crypto;
-		};
-		18D9CFF021BD181E0068B3B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Steem::SteemTests";
-			remoteInfo = SteemTests;
-		};
-		18D9CFF121BD181E0068B3B2 /* PBXContainerItemProxy */ = {
+		18D9D07921BD41A90068B3B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Steem::SteemIntegrationTests";
 			remoteInfo = SteemIntegrationTests;
 		};
+		18D9D07A21BD41A90068B3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Steem::SteemTests";
+			remoteInfo = SteemTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_10 /* secp256k1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
-		OBJ_12 /* secp256k1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
-		OBJ_14 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		OBJ_15 /* AnyCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
-		OBJ_16 /* AnyDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
-		OBJ_17 /* AnyEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
-		OBJ_18 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
-		OBJ_19 /* Authority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authority.swift; sourceTree = "<group>"; };
-		OBJ_20 /* Base58.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base58.swift; sourceTree = "<group>"; };
-		OBJ_21 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
-		OBJ_22 /* ChainId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainId.swift; sourceTree = "<group>"; };
-		OBJ_23 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
-		OBJ_24 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
-		OBJ_25 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
-		OBJ_26 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
-		OBJ_27 /* OrderedDictionary+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedDictionary+Codable.swift"; sourceTree = "<group>"; };
-		OBJ_28 /* OrderedDictionary+Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedDictionary+Description.swift"; sourceTree = "<group>"; };
-		OBJ_29 /* OrderedDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
-		OBJ_30 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
-		OBJ_31 /* PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
-		OBJ_32 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
-		OBJ_33 /* Secp256k1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1.swift; sourceTree = "<group>"; };
-		OBJ_34 /* Sha2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sha2.swift; sourceTree = "<group>"; };
-		OBJ_35 /* Signature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
-		OBJ_36 /* SteemEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemEncoder.swift; sourceTree = "<group>"; };
-		OBJ_37 /* SteemURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemURL.swift; sourceTree = "<group>"; };
-		OBJ_38 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		OBJ_40 /* base58.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
-		OBJ_41 /* hasher.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hasher.c; sourceTree = "<group>"; };
-		OBJ_42 /* memzero.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = memzero.c; sourceTree = "<group>"; };
-		OBJ_43 /* ripemd160.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
-		OBJ_44 /* sha2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
-		OBJ_46 /* crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
-		OBJ_47 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/apple/projects/swift-steem/Steem.xcodeproj/GeneratedModuleMap/Crypto/module.modulemap"; sourceTree = "<group>"; };
-		OBJ_50 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		OBJ_51 /* Performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
-		OBJ_52 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_54 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
-		OBJ_55 /* Base58.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base58.swift; sourceTree = "<group>"; };
-		OBJ_56 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
-		OBJ_57 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
-		OBJ_58 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		OBJ_59 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		18D9D07B21BD41F60068B3B2 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Sources/Bridging-Header.h"; sourceTree = "<group>"; };
+		18D9D08021BD42C40068B3B2 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		18D9D08221BD42D40068B3B2 /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		18D9D08321BD42D40068B3B2 /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
+		18D9D08421BD42D50068B3B2 /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
+		18D9D08521BD42D50068B3B2 /* memzero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memzero.h; sourceTree = "<group>"; };
+		18D9D08621BD42D50068B3B2 /* base58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
+		18D9D08721BD42D50068B3B2 /* hasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hasher.h; sourceTree = "<group>"; };
+		OBJ_10 /* base58.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		OBJ_11 /* hasher.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hasher.c; sourceTree = "<group>"; };
+		OBJ_12 /* memzero.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = memzero.c; sourceTree = "<group>"; };
+		OBJ_13 /* ripemd160.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
+		OBJ_14 /* sha2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
+		OBJ_16 /* secp256k1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
+		OBJ_18 /* secp256k1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
+		OBJ_20 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		OBJ_21 /* AnyCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
+		OBJ_22 /* AnyDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
+		OBJ_23 /* AnyEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Authority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authority.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Base58.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base58.swift; sourceTree = "<group>"; };
+		OBJ_27 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ChainId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainId.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		OBJ_33 /* OrderedDictionary+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedDictionary+Codable.swift"; sourceTree = "<group>"; };
+		OBJ_34 /* OrderedDictionary+Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedDictionary+Description.swift"; sourceTree = "<group>"; };
+		OBJ_35 /* OrderedDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
+		OBJ_36 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		OBJ_37 /* PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Secp256k1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1.swift; sourceTree = "<group>"; };
+		OBJ_40 /* Sha2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sha2.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Signature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
+		OBJ_42 /* SteemEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemEncoder.swift; sourceTree = "<group>"; };
+		OBJ_43 /* SteemURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemURL.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		OBJ_47 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Base58.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base58.swift; sourceTree = "<group>"; };
+		OBJ_49 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		OBJ_50 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		OBJ_51 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		OBJ_52 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		OBJ_53 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		OBJ_54 /* PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		OBJ_55 /* Secp256k1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1.swift; sourceTree = "<group>"; };
+		OBJ_56 /* Sha2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sha2.swift; sourceTree = "<group>"; };
+		OBJ_57 /* Signature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
+		OBJ_58 /* SteemEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemEncoder.swift; sourceTree = "<group>"; };
+		OBJ_59 /* SteemURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemURL.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_60 /* PrivateKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
-		OBJ_61 /* PublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
-		OBJ_62 /* Secp256k1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secp256k1.swift; sourceTree = "<group>"; };
-		OBJ_63 /* Sha2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sha2.swift; sourceTree = "<group>"; };
-		OBJ_64 /* Signature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
-		OBJ_65 /* SteemEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemEncoder.swift; sourceTree = "<group>"; };
-		OBJ_66 /* SteemURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteemURL.swift; sourceTree = "<group>"; };
-		OBJ_67 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		OBJ_68 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		"Steem::Crypto::Product" /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_60 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		OBJ_61 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_63 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		OBJ_64 /* Performance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performance.swift; sourceTree = "<group>"; };
+		OBJ_65 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		"Steem::Steem::Product" /* Steem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Steem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Steem::SteemIntegrationTests::Product" /* SteemIntegrationTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SteemIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Steem::SteemTests::Product" /* SteemTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SteemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -218,43 +206,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_116 /* Frameworks */ = {
+		OBJ_101 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_117 /* secp256k1.framework in Frameworks */,
-				OBJ_118 /* Crypto.framework in Frameworks */,
+				OBJ_102 /* secp256k1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_130 /* Frameworks */ = {
+		OBJ_113 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_131 /* Steem.framework in Frameworks */,
-				OBJ_132 /* secp256k1.framework in Frameworks */,
-				OBJ_133 /* Crypto.framework in Frameworks */,
+				OBJ_114 /* Steem.framework in Frameworks */,
+				OBJ_115 /* secp256k1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_169 /* Frameworks */ = {
+		OBJ_150 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_170 /* Steem.framework in Frameworks */,
-				OBJ_171 /* secp256k1.framework in Frameworks */,
-				OBJ_172 /* Crypto.framework in Frameworks */,
+				OBJ_151 /* Steem.framework in Frameworks */,
+				OBJ_152 /* secp256k1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_183 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_85 /* Frameworks */ = {
+		OBJ_167 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -264,88 +242,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_11 /* include */ = {
+		18D9D07D21BD42970068B3B2 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* secp256k1.h */,
+				18D9D08021BD42C40068B3B2 /* crypto.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		OBJ_13 /* Steem */ = {
+		OBJ_15 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_14 /* API.swift */,
-				OBJ_15 /* AnyCodable.swift */,
-				OBJ_16 /* AnyDecodable.swift */,
-				OBJ_17 /* AnyEncodable.swift */,
-				OBJ_18 /* Asset.swift */,
-				OBJ_19 /* Authority.swift */,
-				OBJ_20 /* Base58.swift */,
-				OBJ_21 /* Block.swift */,
-				OBJ_22 /* ChainId.swift */,
-				OBJ_23 /* Client.swift */,
-				OBJ_24 /* Hex.swift */,
-				OBJ_25 /* Misc.swift */,
-				OBJ_26 /* Operation.swift */,
-				OBJ_27 /* OrderedDictionary+Codable.swift */,
-				OBJ_28 /* OrderedDictionary+Description.swift */,
-				OBJ_29 /* OrderedDictionary.swift */,
-				OBJ_30 /* PrivateKey.swift */,
-				OBJ_31 /* PublicKey.swift */,
-				OBJ_32 /* Random.swift */,
-				OBJ_33 /* Secp256k1.swift */,
-				OBJ_34 /* Sha2.swift */,
-				OBJ_35 /* Signature.swift */,
-				OBJ_36 /* SteemEncoder.swift */,
-				OBJ_37 /* SteemURL.swift */,
-				OBJ_38 /* Transaction.swift */,
+				OBJ_16 /* secp256k1.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* secp256k1.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_19 /* Steem */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Crypto */,
+				OBJ_20 /* API.swift */,
+				OBJ_21 /* AnyCodable.swift */,
+				OBJ_22 /* AnyDecodable.swift */,
+				OBJ_23 /* AnyEncodable.swift */,
+				OBJ_24 /* Asset.swift */,
+				OBJ_25 /* Authority.swift */,
+				OBJ_26 /* Base58.swift */,
+				OBJ_27 /* Block.swift */,
+				OBJ_28 /* ChainId.swift */,
+				OBJ_29 /* Client.swift */,
+				OBJ_30 /* Hex.swift */,
+				OBJ_31 /* Misc.swift */,
+				OBJ_32 /* Operation.swift */,
+				OBJ_33 /* OrderedDictionary+Codable.swift */,
+				OBJ_34 /* OrderedDictionary+Description.swift */,
+				OBJ_35 /* OrderedDictionary.swift */,
+				OBJ_36 /* PrivateKey.swift */,
+				OBJ_37 /* PublicKey.swift */,
+				OBJ_38 /* Random.swift */,
+				OBJ_39 /* Secp256k1.swift */,
+				OBJ_40 /* Sha2.swift */,
+				OBJ_41 /* Signature.swift */,
+				OBJ_42 /* SteemEncoder.swift */,
+				OBJ_43 /* SteemURL.swift */,
+				OBJ_44 /* Transaction.swift */,
 			);
 			name = Steem;
 			path = Sources/Steem;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_39 /* Crypto */ = {
+		OBJ_45 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_40 /* base58.c */,
-				OBJ_41 /* hasher.c */,
-				OBJ_42 /* memzero.c */,
-				OBJ_43 /* ripemd160.c */,
-				OBJ_44 /* sha2.c */,
-				OBJ_45 /* include */,
-			);
-			name = Crypto;
-			path = Sources/Crypto;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_45 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_46 /* crypto.h */,
-				OBJ_47 /* module.modulemap */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		OBJ_48 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_49 /* SteemIntegrationTests */,
-				OBJ_53 /* SteemTests */,
+				OBJ_46 /* SteemTests */,
+				OBJ_62 /* SteemIntegrationTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_49 /* SteemIntegrationTests */ = {
+		OBJ_46 /* SteemTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_50 /* API.swift */,
-				OBJ_51 /* Performance.swift */,
-				OBJ_52 /* XCTestManifests.swift */,
+				OBJ_47 /* Asset.swift */,
+				OBJ_48 /* Base58.swift */,
+				OBJ_49 /* Block.swift */,
+				OBJ_50 /* Client.swift */,
+				OBJ_51 /* Common.swift */,
+				OBJ_52 /* Operation.swift */,
+				OBJ_53 /* PrivateKey.swift */,
+				OBJ_54 /* PublicKey.swift */,
+				OBJ_55 /* Secp256k1.swift */,
+				OBJ_56 /* Sha2.swift */,
+				OBJ_57 /* Signature.swift */,
+				OBJ_58 /* SteemEncoder.swift */,
+				OBJ_59 /* SteemURL.swift */,
+				OBJ_60 /* Transaction.swift */,
+				OBJ_61 /* XCTestManifests.swift */,
 			);
-			name = SteemIntegrationTests;
-			path = Tests/SteemIntegrationTests;
+			name = SteemTests;
+			path = Tests/SteemTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_5 /*  */ = {
@@ -353,43 +337,30 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_48 /* Tests */,
-				OBJ_69 /* Products */,
+				OBJ_45 /* Tests */,
+				OBJ_66 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
 		};
-		OBJ_53 /* SteemTests */ = {
+		OBJ_62 /* SteemIntegrationTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_54 /* Asset.swift */,
-				OBJ_55 /* Base58.swift */,
-				OBJ_56 /* Block.swift */,
-				OBJ_57 /* Client.swift */,
-				OBJ_58 /* Common.swift */,
-				OBJ_59 /* Operation.swift */,
-				OBJ_60 /* PrivateKey.swift */,
-				OBJ_61 /* PublicKey.swift */,
-				OBJ_62 /* Secp256k1.swift */,
-				OBJ_63 /* Sha2.swift */,
-				OBJ_64 /* Signature.swift */,
-				OBJ_65 /* SteemEncoder.swift */,
-				OBJ_66 /* SteemURL.swift */,
-				OBJ_67 /* Transaction.swift */,
-				OBJ_68 /* XCTestManifests.swift */,
+				OBJ_63 /* API.swift */,
+				OBJ_64 /* Performance.swift */,
+				OBJ_65 /* XCTestManifests.swift */,
 			);
-			name = SteemTests;
-			path = Tests/SteemTests;
+			name = SteemIntegrationTests;
+			path = Tests/SteemIntegrationTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_69 /* Products */ = {
+		OBJ_66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"Steem::SteemTests::Product" /* SteemTests.xctest */,
-				"Steem::secp256k1::Product" /* secp256k1.framework */,
 				"Steem::Steem::Product" /* Steem.framework */,
 				"Steem::SteemIntegrationTests::Product" /* SteemIntegrationTests.xctest */,
-				"Steem::Crypto::Product" /* Crypto.framework */,
+				"Steem::secp256k1::Product" /* secp256k1.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -397,9 +368,9 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				18D9D07B21BD41F60068B3B2 /* Bridging-Header.h */,
 				OBJ_8 /* secp256k1 */,
-				OBJ_13 /* Steem */,
-				OBJ_39 /* Crypto */,
+				OBJ_19 /* Steem */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -407,63 +378,64 @@
 		OBJ_8 /* secp256k1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* src */,
-				OBJ_11 /* include */,
+				OBJ_15 /* src */,
+				OBJ_17 /* include */,
 			);
 			name = secp256k1;
 			path = Sources/secp256k1;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_9 /* src */ = {
+		OBJ_9 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_10 /* secp256k1.c */,
+				18D9D07D21BD42970068B3B2 /* include */,
+				OBJ_10 /* base58.c */,
+				OBJ_11 /* hasher.c */,
+				OBJ_12 /* memzero.c */,
+				OBJ_13 /* ripemd160.c */,
+				OBJ_14 /* sha2.c */,
+				18D9D08621BD42D50068B3B2 /* base58.h */,
+				18D9D08721BD42D50068B3B2 /* hasher.h */,
+				18D9D08521BD42D50068B3B2 /* memzero.h */,
+				18D9D08221BD42D40068B3B2 /* options.h */,
+				18D9D08321BD42D40068B3B2 /* ripemd160.h */,
+				18D9D08421BD42D50068B3B2 /* sha2.h */,
 			);
-			path = src;
+			path = Crypto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		OBJ_181 /* Headers */ = {
+		OBJ_165 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_182 /* secp256k1.h in Headers */,
+				18D9D08C21BD42D50068B3B2 /* base58.h in Headers */,
+				18D9D08D21BD42D50068B3B2 /* hasher.h in Headers */,
+				18D9D08B21BD42D50068B3B2 /* memzero.h in Headers */,
+				18D9D08A21BD42D50068B3B2 /* sha2.h in Headers */,
+				OBJ_166 /* secp256k1.h in Headers */,
+				18D9D08921BD42D50068B3B2 /* ripemd160.h in Headers */,
+				18D9D08821BD42D50068B3B2 /* options.h in Headers */,
+				18D9D08121BD42C40068B3B2 /* crypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		"Steem::Crypto" /* Crypto */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_76 /* Build configuration list for PBXNativeTarget "Crypto" */;
-			buildPhases = (
-				OBJ_79 /* Sources */,
-				OBJ_85 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Crypto;
-			productName = Crypto;
-			productReference = "Steem::Crypto::Product" /* Crypto.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		"Steem::Steem" /* Steem */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_87 /* Build configuration list for PBXNativeTarget "Steem" */;
+			buildConfigurationList = OBJ_72 /* Build configuration list for PBXNativeTarget "Steem" */;
 			buildPhases = (
-				OBJ_90 /* Sources */,
-				OBJ_116 /* Frameworks */,
+				OBJ_75 /* Sources */,
+				OBJ_101 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_119 /* PBXTargetDependency */,
-				OBJ_121 /* PBXTargetDependency */,
+				OBJ_103 /* PBXTargetDependency */,
 			);
 			name = Steem;
 			productName = Steem;
@@ -472,17 +444,16 @@
 		};
 		"Steem::SteemIntegrationTests" /* SteemIntegrationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_123 /* Build configuration list for PBXNativeTarget "SteemIntegrationTests" */;
+			buildConfigurationList = OBJ_106 /* Build configuration list for PBXNativeTarget "SteemIntegrationTests" */;
 			buildPhases = (
-				OBJ_126 /* Sources */,
-				OBJ_130 /* Frameworks */,
+				OBJ_109 /* Sources */,
+				OBJ_113 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_134 /* PBXTargetDependency */,
-				OBJ_135 /* PBXTargetDependency */,
-				OBJ_136 /* PBXTargetDependency */,
+				OBJ_116 /* PBXTargetDependency */,
+				OBJ_117 /* PBXTargetDependency */,
 			);
 			name = SteemIntegrationTests;
 			productName = SteemIntegrationTests;
@@ -491,17 +462,16 @@
 		};
 		"Steem::SteemTests" /* SteemTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_150 /* Build configuration list for PBXNativeTarget "SteemTests" */;
+			buildConfigurationList = OBJ_131 /* Build configuration list for PBXNativeTarget "SteemTests" */;
 			buildPhases = (
-				OBJ_153 /* Sources */,
-				OBJ_169 /* Frameworks */,
+				OBJ_134 /* Sources */,
+				OBJ_150 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_173 /* PBXTargetDependency */,
-				OBJ_174 /* PBXTargetDependency */,
-				OBJ_175 /* PBXTargetDependency */,
+				OBJ_153 /* PBXTargetDependency */,
+				OBJ_154 /* PBXTargetDependency */,
 			);
 			name = SteemTests;
 			productName = SteemTests;
@@ -510,9 +480,9 @@
 		};
 		"Steem::SwiftPMPackageDescription" /* SteemPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_138 /* Build configuration list for PBXNativeTarget "SteemPackageDescription" */;
+			buildConfigurationList = OBJ_119 /* Build configuration list for PBXNativeTarget "SteemPackageDescription" */;
 			buildPhases = (
-				OBJ_141 /* Sources */,
+				OBJ_122 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -524,11 +494,11 @@
 		};
 		"Steem::secp256k1" /* secp256k1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_176 /* Build configuration list for PBXNativeTarget "secp256k1" */;
+			buildConfigurationList = OBJ_155 /* Build configuration list for PBXNativeTarget "secp256k1" */;
 			buildPhases = (
-				OBJ_179 /* Sources */,
-				OBJ_181 /* Headers */,
-				OBJ_183 /* Frameworks */,
+				OBJ_158 /* Sources */,
+				OBJ_165 /* Headers */,
+				OBJ_167 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -555,11 +525,10 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_69 /* Products */;
+			productRefGroup = OBJ_66 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"Steem::Crypto" /* Crypto */,
 				"Steem::Steem" /* Steem */,
 				"Steem::SteemIntegrationTests" /* SteemIntegrationTests */,
 				"Steem::SwiftPMPackageDescription" /* SteemPackageDescription */,
@@ -571,155 +540,133 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_126 /* Sources */ = {
+		OBJ_109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_127 /* API.swift in Sources */,
-				OBJ_128 /* Performance.swift in Sources */,
-				OBJ_129 /* XCTestManifests.swift in Sources */,
+				OBJ_110 /* API.swift in Sources */,
+				OBJ_111 /* Performance.swift in Sources */,
+				OBJ_112 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_141 /* Sources */ = {
+		OBJ_122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_142 /* Package.swift in Sources */,
+				OBJ_123 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_153 /* Sources */ = {
+		OBJ_134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_154 /* Asset.swift in Sources */,
-				OBJ_155 /* Base58.swift in Sources */,
-				OBJ_156 /* Block.swift in Sources */,
-				OBJ_157 /* Client.swift in Sources */,
-				OBJ_158 /* Common.swift in Sources */,
-				OBJ_159 /* Operation.swift in Sources */,
-				OBJ_160 /* PrivateKey.swift in Sources */,
-				OBJ_161 /* PublicKey.swift in Sources */,
-				OBJ_162 /* Secp256k1.swift in Sources */,
-				OBJ_163 /* Sha2.swift in Sources */,
-				OBJ_164 /* Signature.swift in Sources */,
-				OBJ_165 /* SteemEncoder.swift in Sources */,
-				OBJ_166 /* SteemURL.swift in Sources */,
-				OBJ_167 /* Transaction.swift in Sources */,
-				OBJ_168 /* XCTestManifests.swift in Sources */,
+				OBJ_135 /* Asset.swift in Sources */,
+				OBJ_136 /* Base58.swift in Sources */,
+				OBJ_137 /* Block.swift in Sources */,
+				OBJ_138 /* Client.swift in Sources */,
+				OBJ_139 /* Common.swift in Sources */,
+				OBJ_140 /* Operation.swift in Sources */,
+				OBJ_141 /* PrivateKey.swift in Sources */,
+				OBJ_142 /* PublicKey.swift in Sources */,
+				OBJ_143 /* Secp256k1.swift in Sources */,
+				OBJ_144 /* Sha2.swift in Sources */,
+				OBJ_145 /* Signature.swift in Sources */,
+				OBJ_146 /* SteemEncoder.swift in Sources */,
+				OBJ_147 /* SteemURL.swift in Sources */,
+				OBJ_148 /* Transaction.swift in Sources */,
+				OBJ_149 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_179 /* Sources */ = {
+		OBJ_158 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_180 /* secp256k1.c in Sources */,
+				OBJ_159 /* base58.c in Sources */,
+				OBJ_160 /* hasher.c in Sources */,
+				OBJ_161 /* memzero.c in Sources */,
+				OBJ_162 /* ripemd160.c in Sources */,
+				OBJ_163 /* sha2.c in Sources */,
+				OBJ_164 /* secp256k1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_79 /* Sources */ = {
+		OBJ_75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_80 /* base58.c in Sources */,
-				OBJ_81 /* hasher.c in Sources */,
-				OBJ_82 /* memzero.c in Sources */,
-				OBJ_83 /* ripemd160.c in Sources */,
-				OBJ_84 /* sha2.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_90 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_91 /* API.swift in Sources */,
-				OBJ_92 /* AnyCodable.swift in Sources */,
-				OBJ_93 /* AnyDecodable.swift in Sources */,
-				OBJ_94 /* AnyEncodable.swift in Sources */,
-				OBJ_95 /* Asset.swift in Sources */,
-				OBJ_96 /* Authority.swift in Sources */,
-				OBJ_97 /* Base58.swift in Sources */,
-				OBJ_98 /* Block.swift in Sources */,
-				OBJ_99 /* ChainId.swift in Sources */,
-				OBJ_100 /* Client.swift in Sources */,
-				OBJ_101 /* Hex.swift in Sources */,
-				OBJ_102 /* Misc.swift in Sources */,
-				OBJ_103 /* Operation.swift in Sources */,
-				OBJ_104 /* OrderedDictionary+Codable.swift in Sources */,
-				OBJ_105 /* OrderedDictionary+Description.swift in Sources */,
-				OBJ_106 /* OrderedDictionary.swift in Sources */,
-				OBJ_107 /* PrivateKey.swift in Sources */,
-				OBJ_108 /* PublicKey.swift in Sources */,
-				OBJ_109 /* Random.swift in Sources */,
-				OBJ_110 /* Secp256k1.swift in Sources */,
-				OBJ_111 /* Sha2.swift in Sources */,
-				OBJ_112 /* Signature.swift in Sources */,
-				OBJ_113 /* SteemEncoder.swift in Sources */,
-				OBJ_114 /* SteemURL.swift in Sources */,
-				OBJ_115 /* Transaction.swift in Sources */,
+				OBJ_76 /* API.swift in Sources */,
+				OBJ_77 /* AnyCodable.swift in Sources */,
+				OBJ_78 /* AnyDecodable.swift in Sources */,
+				OBJ_79 /* AnyEncodable.swift in Sources */,
+				OBJ_80 /* Asset.swift in Sources */,
+				OBJ_81 /* Authority.swift in Sources */,
+				OBJ_82 /* Base58.swift in Sources */,
+				OBJ_83 /* Block.swift in Sources */,
+				OBJ_84 /* ChainId.swift in Sources */,
+				OBJ_85 /* Client.swift in Sources */,
+				OBJ_86 /* Hex.swift in Sources */,
+				OBJ_87 /* Misc.swift in Sources */,
+				OBJ_88 /* Operation.swift in Sources */,
+				OBJ_89 /* OrderedDictionary+Codable.swift in Sources */,
+				OBJ_90 /* OrderedDictionary+Description.swift in Sources */,
+				OBJ_91 /* OrderedDictionary.swift in Sources */,
+				OBJ_92 /* PrivateKey.swift in Sources */,
+				OBJ_93 /* PublicKey.swift in Sources */,
+				OBJ_94 /* Random.swift in Sources */,
+				OBJ_95 /* Secp256k1.swift in Sources */,
+				OBJ_96 /* Sha2.swift in Sources */,
+				OBJ_97 /* Signature.swift in Sources */,
+				OBJ_98 /* SteemEncoder.swift in Sources */,
+				OBJ_99 /* SteemURL.swift in Sources */,
+				OBJ_100 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_119 /* PBXTargetDependency */ = {
+		OBJ_103 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Steem::secp256k1" /* secp256k1 */;
-			targetProxy = 18D9CFE821BD181D0068B3B2 /* PBXContainerItemProxy */;
+			targetProxy = 18D9D07421BD41A70068B3B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_121 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Steem::Crypto" /* Crypto */;
-			targetProxy = 18D9CFE921BD181D0068B3B2 /* PBXContainerItemProxy */;
-		};
-		OBJ_134 /* PBXTargetDependency */ = {
+		OBJ_116 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Steem::Steem" /* Steem */;
-			targetProxy = 18D9CFED21BD181D0068B3B2 /* PBXContainerItemProxy */;
+			targetProxy = 18D9D07521BD41A70068B3B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_135 /* PBXTargetDependency */ = {
+		OBJ_117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Steem::secp256k1" /* secp256k1 */;
-			targetProxy = 18D9CFEE21BD181D0068B3B2 /* PBXContainerItemProxy */;
+			targetProxy = 18D9D07621BD41A70068B3B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_136 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Steem::Crypto" /* Crypto */;
-			targetProxy = 18D9CFEF21BD181D0068B3B2 /* PBXContainerItemProxy */;
-		};
-		OBJ_147 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Steem::SteemTests" /* SteemTests */;
-			targetProxy = 18D9CFF021BD181E0068B3B2 /* PBXContainerItemProxy */;
-		};
-		OBJ_149 /* PBXTargetDependency */ = {
+		OBJ_128 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Steem::SteemIntegrationTests" /* SteemIntegrationTests */;
-			targetProxy = 18D9CFF121BD181E0068B3B2 /* PBXContainerItemProxy */;
+			targetProxy = 18D9D07921BD41A90068B3B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_173 /* PBXTargetDependency */ = {
+		OBJ_129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Steem::SteemTests" /* SteemTests */;
+			targetProxy = 18D9D07A21BD41A90068B3B2 /* PBXContainerItemProxy */;
+		};
+		OBJ_153 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Steem::Steem" /* Steem */;
-			targetProxy = 18D9CFEA21BD181D0068B3B2 /* PBXContainerItemProxy */;
+			targetProxy = 18D9D07721BD41A70068B3B2 /* PBXContainerItemProxy */;
 		};
-		OBJ_174 /* PBXTargetDependency */ = {
+		OBJ_154 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Steem::secp256k1" /* secp256k1 */;
-			targetProxy = 18D9CFEB21BD181D0068B3B2 /* PBXContainerItemProxy */;
-		};
-		OBJ_175 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Steem::Crypto" /* Crypto */;
-			targetProxy = 18D9CFEC21BD181D0068B3B2 /* PBXContainerItemProxy */;
+			targetProxy = 18D9D07821BD41A70068B3B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_124 /* Debug */ = {
+		OBJ_107 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -731,21 +678,19 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/secp256k1/include",
-					"$(SRCROOT)/Sources/Crypto/include",
-					"$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto",
 				);
 				INFOPLIST_FILE = Steem.xcodeproj/SteemIntegrationTests_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SteemIntegrationTests;
 			};
 			name = Debug;
 		};
-		OBJ_125 /* Release */ = {
+		OBJ_108 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -757,21 +702,19 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/secp256k1/include",
-					"$(SRCROOT)/Sources/Crypto/include",
-					"$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto",
 				);
 				INFOPLIST_FILE = Steem.xcodeproj/SteemIntegrationTests_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SteemIntegrationTests;
 			};
 			name = Release;
 		};
-		OBJ_139 /* Debug */ = {
+		OBJ_120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -780,7 +723,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_140 /* Release */ = {
+		OBJ_121 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -789,19 +732,19 @@
 			};
 			name = Release;
 		};
-		OBJ_145 /* Debug */ = {
+		OBJ_126 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_146 /* Release */ = {
+		OBJ_127 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		OBJ_151 /* Debug */ = {
+		OBJ_132 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -813,21 +756,19 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/secp256k1/include",
-					"$(SRCROOT)/Sources/Crypto/include",
-					"$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto",
 				);
 				INFOPLIST_FILE = Steem.xcodeproj/SteemTests_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SteemTests;
 			};
 			name = Debug;
 		};
-		OBJ_152 /* Release */ = {
+		OBJ_133 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -839,21 +780,19 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/secp256k1/include",
-					"$(SRCROOT)/Sources/Crypto/include",
-					"$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto",
 				);
 				INFOPLIST_FILE = Steem.xcodeproj/SteemTests_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SteemTests;
 			};
 			name = Release;
 		};
-		OBJ_177 /* Debug */ = {
+		OBJ_156 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -881,7 +820,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_178 /* Release */ = {
+		OBJ_157 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -931,6 +870,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)Sources/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HEADERMAP = NO;
 			};
@@ -952,66 +892,13 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)Sources/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		OBJ_77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = NO;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/Crypto/include",
-				);
-				INFOPLIST_FILE = Steem.xcodeproj/Crypto_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Crypto;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				TARGET_NAME = Crypto;
-			};
-			name = Debug;
-		};
-		OBJ_78 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEFINES_MODULE = NO;
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/Sources/Crypto/include",
-				);
-				INFOPLIST_FILE = Steem.xcodeproj/Crypto_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Crypto;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				TARGET_NAME = Crypto;
-			};
-			name = Release;
-		};
-		OBJ_88 /* Debug */ = {
+		OBJ_73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1022,14 +909,12 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/secp256k1/include",
-					"$(SRCROOT)/Sources/Crypto/include",
-					"$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto",
 				);
 				INFOPLIST_FILE = Steem.xcodeproj/Steem_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = Steem;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1040,7 +925,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_89 /* Release */ = {
+		OBJ_74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1051,14 +936,12 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Sources/secp256k1/include",
-					"$(SRCROOT)/Sources/Crypto/include",
-					"$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto",
 				);
 				INFOPLIST_FILE = Steem.xcodeproj/Steem_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Steem.xcodeproj/GeneratedModuleMap/Crypto/module.modulemap";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = Steem;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1072,47 +955,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_123 /* Build configuration list for PBXNativeTarget "SteemIntegrationTests" */ = {
+		OBJ_106 /* Build configuration list for PBXNativeTarget "SteemIntegrationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_124 /* Debug */,
-				OBJ_125 /* Release */,
+				OBJ_107 /* Debug */,
+				OBJ_108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_138 /* Build configuration list for PBXNativeTarget "SteemPackageDescription" */ = {
+		OBJ_119 /* Build configuration list for PBXNativeTarget "SteemPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_139 /* Debug */,
-				OBJ_140 /* Release */,
+				OBJ_120 /* Debug */,
+				OBJ_121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_144 /* Build configuration list for PBXAggregateTarget "SteemPackageTests" */ = {
+		OBJ_125 /* Build configuration list for PBXAggregateTarget "SteemPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_145 /* Debug */,
-				OBJ_146 /* Release */,
+				OBJ_126 /* Debug */,
+				OBJ_127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_150 /* Build configuration list for PBXNativeTarget "SteemTests" */ = {
+		OBJ_131 /* Build configuration list for PBXNativeTarget "SteemTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_151 /* Debug */,
-				OBJ_152 /* Release */,
+				OBJ_132 /* Debug */,
+				OBJ_133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_176 /* Build configuration list for PBXNativeTarget "secp256k1" */ = {
+		OBJ_155 /* Build configuration list for PBXNativeTarget "secp256k1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_177 /* Debug */,
-				OBJ_178 /* Release */,
+				OBJ_156 /* Debug */,
+				OBJ_157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1126,20 +1009,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_76 /* Build configuration list for PBXNativeTarget "Crypto" */ = {
+		OBJ_72 /* Build configuration list for PBXNativeTarget "Steem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_77 /* Debug */,
-				OBJ_78 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_87 /* Build configuration list for PBXNativeTarget "Steem" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_88 /* Debug */,
-				OBJ_89 /* Release */,
+				OBJ_73 /* Debug */,
+				OBJ_74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

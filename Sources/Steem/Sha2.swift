@@ -1,7 +1,6 @@
 /// Sha2 bindings.
 /// - Author: Johan Nordberg <johan@steemit.com>
 
-import Crypto
 import Foundation
 
 internal extension Data {
