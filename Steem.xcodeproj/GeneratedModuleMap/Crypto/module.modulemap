@@ -1,0 +1,4 @@
+module Crypto {
+    umbrella header "/Users/apple/projects/swift-steem/Sources/Crypto/include/Crypto.h"
+    export *
+}
