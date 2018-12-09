@@ -190,10 +190,24 @@
 			remoteGlobalIDString = "Steem::Crypto";
 			remoteInfo = Crypto;
 		};
+		1820A0C621BCF76300C298DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Steem::SteemTests";
+			remoteInfo = SteemTests;
+		};
+		1820A0C721BCF76300C298DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Steem::SteemIntegrationTests";
+			remoteInfo = SteemIntegrationTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		"AnyCodable::AnyCodable::Product" /* AnyCodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"AnyCodable::AnyCodable::Product" /* AnyCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AnyCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Authority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authority.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Base58.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base58.swift; sourceTree = "<group>"; };
@@ -249,12 +263,12 @@
 		OBJ_73 /* AnyEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
 		OBJ_74 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/apple/projects/swift-steem/.build/checkouts/AnyCodable.git--6278127921080353692/Package.swift"; sourceTree = "<group>"; };
 		OBJ_9 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		"OrderedDictionary::OrderedDictionary::Product" /* OrderedDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Steem::Crypto::Product" /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Steem::Steem::Product" /* Steem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Steem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"OrderedDictionary::OrderedDictionary::Product" /* OrderedDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OrderedDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Steem::Crypto::Product" /* Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Steem::Steem::Product" /* Steem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Steem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Steem::SteemIntegrationTests::Product" /* SteemIntegrationTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SteemIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Steem::SteemTests::Product" /* SteemTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SteemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Steem::secp256k1::Product" /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = secp256k1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Steem::secp256k1::Product" /* secp256k1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = secp256k1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -912,12 +926,12 @@
 		OBJ_187 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Steem::SteemTests" /* SteemTests */;
-			targetProxy = "Steem::SteemTests" /* SteemTests */;
+			targetProxy = 1820A0C621BCF76300C298DE /* PBXContainerItemProxy */;
 		};
 		OBJ_189 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Steem::SteemIntegrationTests" /* SteemIntegrationTests */;
-			targetProxy = "Steem::SteemIntegrationTests" /* SteemIntegrationTests */;
+			targetProxy = 1820A0C721BCF76300C298DE /* PBXContainerItemProxy */;
 		};
 		OBJ_215 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1338,6 +1352,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -1359,6 +1374,7 @@
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
